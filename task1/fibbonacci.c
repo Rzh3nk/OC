@@ -31,7 +31,7 @@ int main(){
   printf("Hello, World!\n");
   size_t cpid;
 
-  pipe(p); .
+  pipe(p); 
   pipe(o); 
   
   if ((cpid = fork()) == 0) { // Child process
